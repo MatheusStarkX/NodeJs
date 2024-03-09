@@ -5,7 +5,7 @@ let _db; // Only used internally in this file
 
 const mongoConnect = (callback) => {
     MongoClient.connect(
-        'mongodb+srv://matheus:w82wFpPtQBa116XZ@cluster0.kiejtwv.mongodb.net/shop?retryWrites=true&w=majority&appName=Cluster0'
+        'mongodb+srv://matheus:<password>@cluster0.kiejtwv.mongodb.net/shop?retryWrites=true&w=majority&appName=Cluster0'
         )
         .then(client => {
             console.log('Connected!');
